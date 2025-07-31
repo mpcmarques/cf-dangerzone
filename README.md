@@ -1,5 +1,5 @@
 
-# 🚨 QBCore Danger Zone Script
+# 🚨 QBCore / QBox Danger Zone Script
 
 A **FiveM script** that allows **police officers** (and optionally admins) to create, manage, and remove **danger zones**—marked locations on the map representing active threats, crimes, or emergencies.
 
@@ -19,7 +19,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 ## 🛠️ Dependencies
 
-- [QBCore Framework](https://github.com/qbcore-framework)
+- [QBCore Framework](https://github.com/qbcore-framework) or [QBox](https://qbox-project.github.io/)
 - `ox_lib` (for `lib.locale()` and command registration)
 
 ---
@@ -93,7 +93,7 @@ This script is open-source and provided under the **MIT License**. Modify and us
 ## 🤝 Credits
 
 Developed by [Codex Factory]  
-Powered by [QBCore Framework](https://github.com/qbcore-framework) & [ox_lib](https://overextended.dev/)
+Powered by [QBCore Framework](https://github.com/qbcore-framework), [QBox](https://qbox-project.github.io/) & [ox_lib](https://overextended.dev/)
 
 ## Check out other scripts in our Discord:
 https://discord.gg/RHA2ZZdKbM
