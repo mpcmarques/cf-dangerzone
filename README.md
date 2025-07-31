@@ -78,7 +78,6 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 ## ⚠️ Important Notes
 
-- The client-side display of zones (`cf-dangerzone:updateAll`) **must be implemented** separately.
 - Make sure all officers have the correct job roles defined in QBCore (`police`).
 - Zones are keyed either by **citizen ID** or **custom names**, depending on the command used.
 
