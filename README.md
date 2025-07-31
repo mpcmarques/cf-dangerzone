@@ -29,7 +29,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 1. **Clone or download** this repository into your server's `resources` folder.
 2. Add to your `server.cfg`:
    ```cfg
-   ensure rp_dangerzone
+   ensure cf-dangerzone
    ```
 3. Make sure `ox_lib` and `qb-core` are started **before** this resource.
 
@@ -69,8 +69,8 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 - **Command Handling**: Uses `lib.addCommand` from `ox_lib`
 - **Event Dispatching**:
-  - `rp_dangerzone:new` and `rp_dangerzone:remove` to add/remove zones
-  - `rp_dangerzones:updateAll` triggers client updates
+  - `cf-dangerzone:new` and `cf-dangerzone:remove` to add/remove zones
+  - `cf-dangerzone:updateAll` triggers client updates
 - **Zone Storage**: Managed by the internal `DangerZones` module (`server.model.zones`)
 - **Sync on Join**: Zones are sent to players when they load in (`QBCore:Server:OnPlayerLoaded`)
 
@@ -78,7 +78,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 ## ⚠️ Important Notes
 
-- The client-side display of zones (`rp_dangerzones:updateAll`) **must be implemented** separately.
+- The client-side display of zones (`cf-dangerzone:updateAll`) **must be implemented** separately.
 - Make sure all officers have the correct job roles defined in QBCore (`police`).
 - Zones are keyed either by **citizen ID** or **custom names**, depending on the command used.
 

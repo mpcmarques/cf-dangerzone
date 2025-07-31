@@ -9,11 +9,11 @@ AddEventHandler('onResourceStop', function(resource)
     end
 end)
 
-AddEventHandler('rp_dangerzone:new', function(name, location, radius)
+AddEventHandler('cf-dangerzone:new', function(name, location, radius)
     DangerZones:add(name, location, radius)
 end)
 
-AddEventHandler('rp_dangerzone:remove', function(name)
+AddEventHandler('cf-dangerzone:remove', function(name)
     DangerZones:remove(name)
 end)
 
