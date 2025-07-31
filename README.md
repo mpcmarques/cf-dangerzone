@@ -62,18 +62,6 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 - Zones are **temporary and reset** when the resource stops or restarts.
 - Use external database support or file writing if persistence is needed across restarts.
-
----
-
-## 📂 Code Overview
-
-- **Command Handling**: Uses `lib.addCommand` from `ox_lib`
-- **Event Dispatching**:
-  - `cf-dangerzone:new` and `cf-dangerzone:remove` to add/remove zones
-  - `cf-dangerzone:updateAll` triggers client updates
-- **Zone Storage**: Managed by the internal `DangerZones` module (`server.model.zones`)
-- **Sync on Join**: Zones are sent to players when they load in (`QBCore:Server:OnPlayerLoaded`)
-
 ---
 
 ## ⚠️ Important Notes
