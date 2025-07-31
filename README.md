@@ -11,7 +11,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 
 - 👮 Police-only `/1010` and `/remove1010` commands
 - 🔧 Admin-only `/createdangerzone` and `/removedangerzone` commands
-- 📍 Adds visible blips/zones on the map (requires client implementation)
+- 📍 Adds visible blips/zones on the map
 - 🧠 Automatic synchronization on player join
 - ♻️ Cleans up all zones when the resource stops
 
@@ -31,7 +31,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
    ```cfg
    ensure cf-dangerzone
    ```
-3. Make sure `ox_lib` and `qb-core` are started **before** this resource.
+3. Make sure `ox_lib` and `qb-core` or `qbx_core` are started **before** this resource.
 
 ---
 
@@ -54,8 +54,7 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 ## 🔐 Access Control
 
 - Police-only access is enforced for `/1010` and `/remove1010`
-- Admin-only commands (`/createdangerzone`, `/removedangerzone`) require group permissions via `ox_lib`'s `restricted` property
-
+- Admin-only commands (`/createdangerzone`, `/removedangerzone`) require group permissions
 ---
 
 ## 🔄 Zone Persistence
