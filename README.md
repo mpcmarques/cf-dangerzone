@@ -60,12 +60,11 @@ Built on the **QBCore Framework**, this script enhances roleplay immersion by en
 ## 🔄 Zone Persistence
 
 - Zones are **temporary and reset** when the resource stops or restarts.
-- Use external database support or file writing if persistence is needed across restarts.
 ---
 
 ## ⚠️ Important Notes
 
-- Make sure all officers have the correct job roles defined in QBCore (`police`).
+- Make sure all officers have the correct job roles defined in QBCore / Qbox (`police`).
 - Zones are keyed either by **citizen ID** or **custom names**, depending on the command used.
 
 ---
